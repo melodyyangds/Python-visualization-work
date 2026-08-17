@@ -69,9 +69,9 @@ python-data-visualization-portfolio/
 
 ## Data
 
-Dataset files are intentionally kept separate from the notebooks. See [`data/README.md`](data/README.md) for the expected filenames and source notes.
-
-The Olympic dataset is the public **120 years of Olympic history: athletes and results** dataset by Randi H. Griffin. The renewable electricity production file is available from **Our World in Data**.
+Datasets are not included in this repository. The notebooks are intended
+to demonstrate analysis and visualization workflows, with saved outputs
+included where applicable.
 
 ## Run locally
 
