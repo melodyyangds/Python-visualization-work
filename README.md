@@ -33,6 +33,8 @@ Uses animated Plotly choropleths to explore renewable electricity production and
 
 **Skills:** Plotly · choropleth maps · geospatial visualization · data reshaping · animation
 
+![Renewable energy comparison](assets/renewable_production_top10.png)
+
 ### 4. Diabetes Data Cleaning & Feature Engineering
 **Notebook:** [`notebooks/diabetes_data_cleaning.ipynb`](notebooks/diabetes_data_cleaning.ipynb)
 
