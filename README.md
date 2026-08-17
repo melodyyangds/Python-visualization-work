@@ -88,6 +88,6 @@ Add the required CSV files to `data/`, then run the notebooks from top to bottom
 
 ## Usage
 
-© 2026 Huichi Yang. All rights reserved.
+© 2026 Melody Yang. All rights reserved.
 
 This repository is intended for portfolio and demonstration purposes. Please do not reproduce or submit this work as your own.
