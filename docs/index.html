@@ -24,6 +24,16 @@
     .wide { grid-column:1 / -1; }
     footer { margin-top:64px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
     @media(max-width:700px){ .grid{grid-template-columns:1fr}.wide{grid-column:auto} main{padding-top:48px} }
+  
+    .project-link {
+      display: inline-block;
+      margin-top: 14px;
+      font-weight: 600;
+      color: #161616;
+      text-decoration: none;
+      border-bottom: 1px solid #161616;
+    }
+    .project-link:hover { opacity: .65; }
   </style>
 </head>
 <body>
@@ -67,6 +77,7 @@
       <div class="copy">
         <h3>Global Renewable Energy</h3>
         <p>Animated country-level choropleths for renewable electricity production and total renewable energy consumption.</p>
+        <a class="project-link" href="renewable_energy_interactive.html">Explore interactive Plotly maps →</a>
       </div>
     </article>
 

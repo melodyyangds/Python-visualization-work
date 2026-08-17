@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renewable Energy | Interactive Plotly Visualization</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --text: #171717;
+      --muted: #666;
+      --line: #e7e7e7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+    .back {
+      display: inline-block;
+      margin-bottom: 28px;
+      color: #444;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      margin: 0 0 18px;
+    }
+    .lead {
+      max-width: 800px;
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-bottom: 36px;
+    }
+    .badge {
+      display: inline-block;
+      border: 1px solid var(--line);
+      background: var(--card);
+      border-radius: 999px;
+      padding: 6px 10px;
+      margin: 0 6px 8px 0;
+      font-size: .9rem;
+    }
+    .plot-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+      margin-top: 28px;
+    }
+    .copy { padding: 22px 24px 8px; }
+    .copy h2 { margin: 0 0 6px; font-size: 1.35rem; }
+    .copy p { margin: 0; color: var(--muted); }
+    iframe {
+      width: 100%;
+      height: 620px;
+      border: 0;
+      display: block;
+      background: white;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    @media (max-width: 700px) {
+      main { padding-top: 40px; }
+      iframe { height: 520px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <a class="back" href="index.html">← Back to portfolio</a>
+
+  <h1>Global Renewable Energy</h1>
+  <p class="lead">
+    Interactive Plotly choropleths exploring renewable electricity production
+    and total renewable energy consumption across countries over time.
+    Use the year controls inside each chart to explore changes geographically.
+  </p>
+
+  <div>
+    <span class="badge">Python</span>
+    <span class="badge">Pandas</span>
+    <span class="badge">Plotly</span>
+    <span class="badge">Choropleth</span>
+    <span class="badge">Interactive Visualization</span>
+  </div>
+
+  <section class="plot-card">
+    <div class="copy">
+      <h2>Renewable Electricity Production</h2>
+      <p>Animated country-level comparison of renewable electricity as a share of electricity production.</p>
+    </div>
+    <iframe
+      src="renewable_production_interactive.html"
+      title="Renewable electricity production interactive Plotly map"
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <section class="plot-card">
+    <div class="copy">
+      <h2>Total Renewable Energy Consumption</h2>
+      <p>Animated country-level view of total renewable energy consumption across the analysis period.</p>
+    </div>
+    <iframe
+      src="renewable_consumption_interactive.html"
+      title="Renewable energy consumption interactive Plotly map"
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <footer>© 2026 Melody Yang · Interactive visualization built with Plotly.</footer>
+</main>
+</body>
+</html>
