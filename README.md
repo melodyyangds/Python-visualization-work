@@ -1,6 +1,6 @@
 # Python Data Visualization Portfolio
 
-Hi, I'm **Huichi Yang**. This repository showcases exploratory data analysis and visualization work in Python across sports, finance, energy, and healthcare data.
+Hi, I'm **Melody Yang**. This repository showcases exploratory data analysis and visualization work in Python across sports, finance, energy, and healthcare data.
 
 The emphasis is on choosing visualizations that match the analytical question, preparing data for clear comparisons, and communicating patterns with both static and interactive charts.
 
