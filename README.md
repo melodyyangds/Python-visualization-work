@@ -1,6 +1,6 @@
 # Python Data Visualization Portfolio
 
-Hi, I'm **Melody Yang**. This repository showcases exploratory data analysis and visualization work in Python across sports, finance, energy, and healthcare data.
+Hi, I'm **Melody Yang**. This repository showcases exploratory data analysis and visualization work in Python across sports, finance, energy, healthcare, and retail data.
 
 The emphasis is on choosing visualizations that match the analytical question, preparing data for clear comparisons, and communicating patterns with both static and interactive charts.
 
@@ -42,6 +42,15 @@ Demonstrates data-quality checks, zero-coded missing-value handling, mean imputa
 
 **Skills:** Pandas · NumPy · missing data · imputation · feature engineering
 
+### 5. Superstore Sales & Profitability EDA
+**Notebook:** [`notebooks/superstore_business_eda.ipynb`](notebooks/superstore_business_eda.ipynb)
+
+Explores a public Sample Superstore dataset available on Kaggle, focusing on category and regional performance, time trends, sub-category profitability, customer segments, and the relationship between discounting and business outcomes.
+
+**Skills:** exploratory data analysis · business analytics · time-series visualization · correlation · segmentation · profitability analysis
+
+![Superstore monthly sales](assets/superstore_monthly_sales.png)
+
 ## Technology
 
 - Python
@@ -61,7 +70,8 @@ python-data-visualization-portfolio/
 │   ├── olympic_athlete_visualization.ipynb
 │   ├── facebook_stock_visualization.ipynb
 │   ├── renewable_energy_geospatial.ipynb
-│   └── diabetes_data_cleaning.ipynb
+│   ├── diabetes_data_cleaning.ipynb
+│   └── superstore_business_eda.ipynb
 ├── assets/
 ├── data/
 ├── docs/
