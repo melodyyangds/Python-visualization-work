@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Huichi Yang | Python Data Visualization</title>
+  <style>
+    :root { --fg:#161616; --muted:#666; --bg:#fafafa; --card:#fff; --line:#e8e8e8; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--fg); background:var(--bg); line-height:1.6; }
+    main { max-width:980px; margin:auto; padding:72px 24px 96px; }
+    .hero { margin-bottom:56px; }
+    h1 { font-size:clamp(2.5rem,7vw,5rem); line-height:1.02; margin:0 0 18px; letter-spacing:-.05em; }
+    .lead { font-size:1.2rem; max-width:720px; color:var(--muted); }
+    .tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:24px; }
+    .tag { border:1px solid var(--line); background:var(--card); padding:6px 10px; border-radius:999px; font-size:.9rem; }
+    h2 { margin-top:56px; font-size:1.8rem; letter-spacing:-.02em; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:18px; overflow:hidden; }
+    .card img { width:100%; display:block; aspect-ratio:16/9; object-fit:cover; border-bottom:1px solid var(--line); }
+    .copy { padding:22px; }
+    .copy h3 { margin:0 0 6px; font-size:1.25rem; }
+    .copy p { color:var(--muted); margin:0; }
+    .wide { grid-column:1 / -1; }
+    footer { margin-top:64px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+    @media(max-width:700px){ .grid{grid-template-columns:1fr}.wide{grid-column:auto} main{padding-top:48px} }
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <h1>Python Data<br>Visualization</h1>
+    <p class="lead">I'm Huichi Yang. I use Python to explore data, select visual forms that fit the question, and communicate patterns across sports, finance, energy, and healthcare datasets.</p>
+    <div class="tags">
+      <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Matplotlib</span>
+      <span class="tag">Seaborn</span><span class="tag">Plotly</span><span class="tag">Jupyter</span>
+    </div>
+  </section>
+
+  <h2>Selected work</h2>
+  <section class="grid">
+    <article class="card">
+      <img src="assets/olympic_violin_plot.png" alt="Olympic athlete violin plots">
+      <div class="copy">
+        <h3>Olympic Athlete & Medal Visualization</h3>
+        <p>Distribution analysis, categorical comparisons, athlete demographics, and interactive medal-record views.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/facebook_july_decline.png" alt="Facebook closing price with late-July decline highlighted">
+      <div class="copy">
+        <h3>Facebook 2018 Stock Visualization</h3>
+        <p>Time series, event annotation, Tukey fences, feature engineering, correlations, density, and regression.</p>
+      </div>
+    </article>
+
+    <article class="card wide">
+      <img src="assets/facebook_correlation_heatmap.png" alt="Facebook stock correlation heatmap">
+      <div class="copy">
+        <h3>From raw variables to relationships</h3>
+        <p>The portfolio emphasizes analytical progression: prepare data, build interpretable features, compare distributions, and visualize relationships.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="copy">
+        <h3>Global Renewable Energy</h3>
+        <p>Animated country-level choropleths for renewable electricity production and total renewable energy consumption.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="copy">
+        <h3>Diabetes Data Cleaning</h3>
+        <p>Zero-coded missing values, imputation, feature engineering, and descriptive outcome analysis.</p>
+      </div>
+    </article>
+  </section>
+
+  <footer>© 2026 Huichi Yang · Portfolio and demonstration use.</footer>
+</main>
+</body>
+</html>
